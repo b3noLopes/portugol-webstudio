@@ -1,0 +1,52 @@
+// Programa que realiza algumas operações aritméticas básicas
+programa {
+	
+	funcao inicio() {
+		
+		
+		
+		real n1, n2, soma, sub, mult, div, media
+		
+		
+
+		escreva("Digite o primeiro número: ")
+		
+		leia(n1)
+		
+		escreva("Digite o segundo número: ")
+		
+		leia(n2)
+		
+		
+
+		soma = n1 + n2
+		
+		sub = n1 - n2
+		
+		mult = n1 * n2
+		
+		div = n1/n2
+		
+		media = (n1 + n2)/2
+		
+		
+
+		// Esse escreva é apenas para gerar um espaço entre a entrada de dados e o que sairá no 			// terminal
+		
+		escreva("\n")
+		
+		escreva(n1 + " + " + n2 + " = " + soma + "\n")
+		
+		escreva(n1 + " - " + n2 + " = " + sub + "\n")
+		
+		escreva(n1 + " x " + n2 + " = " + mult + "\n")
+		
+		escreva(n1 + " : " + n2 + " = " + div + "\n")
+		
+		escreva("A média entre " + n1 + " e " + n2 + " é igual a " + media + "\n")
+
+		
+	
+	
+}
+}
